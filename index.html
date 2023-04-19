@@ -8,37 +8,51 @@
                 width:720px;
                 margin:10px auto 10px auto;
             }
+            .row2 {
+                width:480px;
+                margin:10px auto 10px auto;
+            }
+
+            .row3 {
+                width: 240px;
+                margin:10px auto 10px auto;
+            }
+
             .image-container {
                 display: table-cell;
                 vertical-align: middle;
                 padding:20px;
             }
+            
+    
+            
             </style>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
     </head>
 
     <body>
         <body style="background-color: rgb(130, 133, 137);">
 
        <div class="row">
-        <div class="image-container"><img id="ocean" src="img/ocean1.svg" onmouseover="this.src='img/oceanG.svg';" onmouseout="this.src='img/ocean1.svg';" width="300" height="300"/></div>
-        <div class="image-container"><img id="mug" src="img/mug.svg" onmouseover="this.src='img/cupG.svg';"  onmouseout="this.src='img/mug.svg';" width="300" height="300"/></div>
-        <div class="image-container"><img id="bath" src="img/bath.svg" onmouseover="this.src='img/bathG.svg';"  onmouseout="this.src='img/bath.svg';" width="300" height="300"/></div>
+        <div class="image-container"><img id="ocean" src="img/ocean1.svg" onmouseover="this.src='img/oceanG.svg';" onmouseout="this.src='img/ocean1.svg';" width="200" height="200"/></div>
+        <div class="image-container"><img id="mug" src="img/mug.svg" onmouseover="this.src='img/cupG.svg';"  onmouseout="this.src='img/mug.svg';" width="200" height="200"/></div>
+        <div class="image-container"><img id="bath" src="img/bath.svg" onmouseover="this.src='img/bathG.svg';"  onmouseout="this.src='img/bath.svg';" width="200" height="200"/></div>
        </div>
 
        <div class="row">
-        <div class="image-container"><img id="headphones" src="img/music.svg" onmouseover="this.src='img/musicG.svg';" onmouseout="this.src='img/music.svg';" width="300" height="300"/></div>
-        <div class="image-container"><img id="person" src="img/me.svg" onmouseover="this.src='img/meG.svg';" onmouseout="this.src='img/me.svg';" width="300" height="300"/></div>
-       <div class="image-container" ><img id="boba" src="img/boba.svg"  onmouseover="this.src='img/bobaG.svg';" onmouseout="this.src='img/boba.svg';" width="300" height="300"/></div>
+        <div class="image-container"><img id="park" src="img/park.svg" onmouseover="this.src='img/parkG.svg';" onmouseout="this.src='img/park.svg';" width="200" height="200"/></div>
+        <div class="image-container"><img id="popcorn" src="img/popcorn.svg" onmouseover="this.src='img/popcornG.svg';" onmouseout="this.src='img/popcorn.svg';" width="200" height="200"/></div>
+        <div class="image-container"><img id="sun" src="img/sun.svg" onmouseover="this.src='img/sunG.svg';" onmouseout="this.src='img/sun.svg';" width="200" height="200"/></div>
        </div>
 
-       <div class="row">
-        <div class="image-container"><img id="park" src="img/park.svg" onmouseover="this.src='img/parkG.svg';" onmouseout="this.src='img/park.svg';" width="300" height="300"/></div>
-        <div class="image-container"><img id="sun" src="img/sun.svg" onmouseover="this.src='img/sunG.svg';" onmouseout="this.src='img/sun.svg';" width="300" height="300"/></div>
-        <div class="image-container"><img id="popcorn" src="img/popcorn.svg" onmouseover="this.src='img/popcornG.svg';" onmouseout="this.src='img/popcorn.svg';" width="300" height="300"/></div>
+       <div class="row2">
+        <div class="image-container"><img id="headphones" src="img/music.svg" onmouseover="this.src='img/musicG.svg';" onmouseout="this.src='img/music.svg';" width="200" height="200"/></div>
+       <div class="image-container" ><img id="boba" src="img/boba.svg"  onmouseover="this.src='img/bobaG.svg';" onmouseout="this.src='img/boba.svg';" width="200" height="200"/></div>
        </div>
 
-
+       <div class="row3">
+       <div class="image-container"><img id="person" src="img/me.svg" onmouseover="this.src='img/meG.svg';" onmouseout="this.src='img/me.svg';" width="200" height="200"/></div>
+       </div>
 
       <script>
         var sound1 = new buzz.sound("sound/ocean.mp3");
